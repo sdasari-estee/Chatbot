@@ -132,9 +132,7 @@ public class TrackOrderSteps_Valid_Input {
             ScreenshotUtil.takeScreenshot(driver, testName + timestamp );
             driver.quit();
             throw e;    
-        }
-    	
-    	    
+        }	    
     }
     
     @When("the user validate the logo of BB is visible")
@@ -395,8 +393,7 @@ public class TrackOrderSteps_Valid_Input {
             ScreenshotUtil.takeScreenshot(driver, testName + timestamp );
             driver.quit();
             throw e;    
-        }
-      	
+        }      	
     }
     
     @When("the user enters postal code {string}")
