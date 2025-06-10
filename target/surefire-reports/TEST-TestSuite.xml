@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="503.361" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2\target\test-classes;C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2\target\classes;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\sdasari\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\sdasari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.0\selenium-java-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.0\selenium-api-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.0\selenium-chrome-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.0\selenium-chromium-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.0\selenium-json-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.0\selenium-manager-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.0\selenium-devtools-v130-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.0\selenium-devtools-v131-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.0\selenium-devtools-v132-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.0\selenium-devtools-v85-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.0\selenium-edge-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.0\selenium-firefox-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.0\selenium-http-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.0\selenium-ie-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.0\selenium-remote-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\sdasari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sdasari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sdasari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sdasari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\sdasari\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\sdasari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\sdasari\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.0\selenium-os-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.0\selenium-safari-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.0\selenium-support-4.28.0.jar;C:\Users\sdasari\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\sdasari\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sdasari\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sdasari\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\sdasari\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sdasari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sdasari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sdasari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sdasari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sdasari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sdasari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sdasari\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sdasari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-junit4\2.29.1\allure-junit4-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\sdasari\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\sdasari\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sdasari\AppData\Local\Temp\surefire3554547863355941334\surefirebooter-20250605161543595_3.jar C:\Users\sdasari\AppData\Local\Temp\surefire3554547863355941334 2025-06-05T16-15-43_442-jvmRun1 surefire-20250605161543595_1tmp surefire_0-20250605161543595_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2\target\test-classes;C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2\target\classes;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\sdasari\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\sdasari\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\sdasari\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\sdasari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.0\selenium-java-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.0\selenium-api-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.0\selenium-chrome-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.0\selenium-chromium-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.0\selenium-json-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.0\selenium-manager-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.0\selenium-devtools-v130-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.0\selenium-devtools-v131-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.0\selenium-devtools-v132-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.0\selenium-devtools-v85-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.0\selenium-edge-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.0\selenium-firefox-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.0\selenium-http-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.0\selenium-ie-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.0\selenium-remote-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\sdasari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sdasari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sdasari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sdasari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\sdasari\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\sdasari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\sdasari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\sdasari\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.0\selenium-os-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.0\selenium-safari-driver-4.28.0.jar;C:\Users\sdasari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.0\selenium-support-4.28.0.jar;C:\Users\sdasari\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\sdasari\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sdasari\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sdasari\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\sdasari\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sdasari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sdasari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sdasari\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sdasari\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sdasari\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sdasari\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sdasari\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sdasari\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-junit4\2.29.1\allure-junit4-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\sdasari\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\sdasari\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\sdasari\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sdasari"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\sdasari\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sdasari\AppData\Local\Temp\surefire3554547863355941334\surefirebooter-20250605161543595_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="sdasari"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\sdasari\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\sdasari\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\sdasari\eclipse-workspace\Chatbot_Ex_reports2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\sdasari\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/sdasari/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/sdasari/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\sdasari\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and Pincode which is cancelled&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.Cancelled" time="80.43">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and Pincode which is cancelled # src/test/resources/features/Cancelled.feature:31
+  Given the user is on the Bobbi Brown customer service page                                    # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                                 # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                                      # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                               # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                          # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page        # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                               # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                                    # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "288908210"                                                      # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                           # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "maneh.farazmand@gmail.com"                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                                     # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters postal code "SK7 1EP"                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_postal_code(java.lang.String)
+  And Validating the reply given by chatbot looking for order information                       # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_looking_for_order_information()
+  And retrived the current status of the order                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.retrived_the_current_status_of_the_order()
+  And Valdating the reply given by chatbot for further assistance and clicking on Yes           # stepDefinitions.TrackOrderSteps_Valid_Input.valdating_the_reply_given_by_chatbot_for_further_assistance_and_clicking_on_Yes()
+  And Validating the reply given by chatbot THANK YOU                                           # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_thank_you()
+  And Validating the reply about the service experience                                         # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_about_the_service_experience()
+  And giving the rating as five star                                                            # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_rating_as_five_star()
+  And Validating the replay about feedback                                                      # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_replay_about_feedback()
+  And giving the feedback as GOOD                                                               # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_feedback_as_good()
+  And Validaing the Thank you msg by chatbot                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.validaing_the_thank_you_msg_by_chatbot()
+  Then closed the website                                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 05, 2025 4:15:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and Pincode which is in warehouse&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.In_warehouse" time="57.966">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and Pincode which is in warehouse # src/test/resources/features/In_warehouse.feature:31
+  Given the user is on the Bobbi Brown customer service page                                       # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                                   # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                             # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page           # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                            # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                                       # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "289087821"                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                              # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "frances.ca.evans@outlook.com"                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                                        # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters postal code "HP23 4DP"                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_postal_code(java.lang.String)
+  And Validating the reply given by chatbot looking for order information                          # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_looking_for_order_information()
+  And retrived the current status of the order                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.retrived_the_current_status_of_the_order()
+  And Valdating the reply given by chatbot for further assistance and clicking on Yes              # stepDefinitions.TrackOrderSteps_Valid_Input.valdating_the_reply_given_by_chatbot_for_further_assistance_and_clicking_on_Yes()
+  And Validating the reply given by chatbot THANK YOU                                              # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_thank_you()
+  And Validating the reply about the service experience                                            # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_about_the_service_experience()
+  And giving the rating as five star                                                               # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_rating_as_five_star()
+  And Validating the replay about feedback                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_replay_about_feedback()
+  And giving the feedback as GOOD                                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_feedback_as_good()
+  And Validaing the Thank you msg by chatbot                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.validaing_the_thank_you_msg_by_chatbot()
+  Then closed the website                                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:17:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and Pincode which is Shipped_partial_oos&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.Shipped_partial_oos" time="61.549">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and Pincode which is Shipped_partial_oos # src/test/resources/features/Shipped_partial_oos.feature:32
+  Given the user is on the Bobbi Brown customer service page                                              # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                                           # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page                  # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                                   # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                                              # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "288603340"                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "ci5girl@gmail.com"                                                           # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                                               # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters postal code "GL53 0JJ"                                                              # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_postal_code(java.lang.String)
+  And Validating the reply given by chatbot looking for order information                                 # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_looking_for_order_information()
+  And retrived the current status of the order                                                            # stepDefinitions.TrackOrderSteps_Valid_Input.retrived_the_current_status_of_the_order()
+  And Valdating the reply given by chatbot for further assistance and clicking on Yes                     # stepDefinitions.TrackOrderSteps_Valid_Input.valdating_the_reply_given_by_chatbot_for_further_assistance_and_clicking_on_Yes()
+  And Validating the reply given by chatbot THANK YOU                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_thank_you()
+  And Validating the reply about the service experience                                                   # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_about_the_service_experience()
+  And giving the rating as five star                                                                      # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_rating_as_five_star()
+  And Validating the replay about feedback                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_replay_about_feedback()
+  And giving the feedback as GOOD                                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_feedback_as_good()
+  And Validaing the Thank you msg by chatbot                                                              # stepDefinitions.TrackOrderSteps_Valid_Input.validaing_the_thank_you_msg_by_chatbot()
+  Then closed the website                                                                                 # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:18:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and Pincode which is Shipped_RM&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.Shipped_RM" time="114.712">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and Pincode which is Shipped_RM # src/test/resources/features/Shipped_RM.feature:33
+  Given the user is on the Bobbi Brown customer service page                                     # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                                 # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                                # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                           # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page         # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                                # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                                     # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "110059322"                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                            # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "valchild@icloud.com"                                                # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                                      # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters postal code "PO13 9DH"                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_postal_code(java.lang.String)
+  And Validating the reply given by chatbot looking for order information                        # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_looking_for_order_information()
+  And retrived the current status of the order                                                   # stepDefinitions.TrackOrderSteps_Valid_Input.retrived_the_current_status_of_the_order()
+  And checking order status via track link provided by chatbot and closing the tab               # stepDefinitions.TrackOrderSteps_Valid_Input.checking_order_status_via_track_link_provided_by_chatbot_and_closing_the_tab()
+  And checking order status via track link provided by chatbot and closing the tab               # stepDefinitions.TrackOrderSteps_Valid_Input.checking_order_status_via_track_link_provided_by_chatbot_and_closing_the_tab()
+  And Valdating the reply given by chatbot for further assistance and clicking on Yes            # stepDefinitions.TrackOrderSteps_Valid_Input.valdating_the_reply_given_by_chatbot_for_further_assistance_and_clicking_on_Yes()
+  And Validating the reply given by chatbot THANK YOU                                            # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_thank_you()
+  And Validating the reply about the service experience                                          # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_about_the_service_experience()
+  And giving the rating as five star                                                             # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_rating_as_five_star()
+  And Validating the replay about feedback                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_replay_about_feedback()
+  And giving the feedback as GOOD                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_feedback_as_good()
+  And Validaing the Thank you msg by chatbot                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.validaing_the_thank_you_msg_by_chatbot()
+  Then closed the website                                                                        # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:19:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+Jun 05, 2025 4:20:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 05, 2025 4:20:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 05, 2025 4:20:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 05, 2025 4:20:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and Pincode which is Shipped&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.Shipped" time="77.677">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and Pincode which is Shipped # src/test/resources/features/Shipped.feature:33
+  Given the user is on the Bobbi Brown customer service page                                  # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                               # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                              # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                             # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                        # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page      # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                       # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                             # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                                  # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "288855042"                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                         # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "ruthinnes@hotmail.co.uk"                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                                   # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters postal code "G76 0HS"                                                   # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_postal_code(java.lang.String)
+  And Validating the reply given by chatbot looking for order information                     # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_looking_for_order_information()
+  And retrived the current status of the order                                                # stepDefinitions.TrackOrderSteps_Valid_Input.retrived_the_current_status_of_the_order()
+  And checking order status via track link provided by chatbot and closing the tab            # stepDefinitions.TrackOrderSteps_Valid_Input.checking_order_status_via_track_link_provided_by_chatbot_and_closing_the_tab()
+  And Valdating the reply given by chatbot for further assistance and clicking on Yes         # stepDefinitions.TrackOrderSteps_Valid_Input.valdating_the_reply_given_by_chatbot_for_further_assistance_and_clicking_on_Yes()
+  And Validating the reply given by chatbot THANK YOU                                         # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_thank_you()
+  And Validating the reply about the service experience                                       # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_about_the_service_experience()
+  And giving the rating as five star                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_rating_as_five_star()
+  And Validating the replay about feedback                                                    # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_replay_about_feedback()
+  And giving the feedback as GOOD                                                             # stepDefinitions.TrackOrderSteps_Valid_Input.giving_the_feedback_as_good()
+  And Validaing the Thank you msg by chatbot                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.validaing_the_thank_you_msg_by_chatbot()
+  Then closed the website                                                                     # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:21:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+Jun 05, 2025 4:21:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 05, 2025 4:21:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using Invalid Order ID&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.TestRunner_Invalid_OrderID" time="54.215">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using Invalid Order ID                               # src/test/resources/features/Bobbi_Brown_Chatbot_Invalid _OrderID.feature:21
+  Given the user is on the Bobbi Brown customer service page                             # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                               # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                        # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                   # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                        # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                             # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters invalid order ID "123AC415"                                        # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_enters_invalid_order_id(java.lang.String)
+  And the user should get invalid order Id reply from chatbot and another try            # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_should_get_invalid_order_id_reply_from_chatbot_and_another_try()
+  And the user enters again invalid order Id "123AC415"                                  # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_enters_again_invalid_order_id(java.lang.String)
+  And the user should get sorry messege and redirect to advisor if avaliable             # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_should_get_sorry_messege_and_redirect_to_advisor_if_avaliable()
+  Then closed the website                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:22:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User tracks order using valid Order ID, Email, and invalid Pincode&quot;, &quot;Track Order Status via Chatbot&quot;](1)" classname="testRunners.TestRunner_Invalid_Postalcode" time="55.103">
+    <system-out><![CDATA[
+Scenario Outline: User tracks order using valid Order ID, Email, and invalid Pincode     # src/test/resources/features/Bobbi_Brown_Chatbot_Invalid_Postalcode.feature:26
+  Given the user is on the Bobbi Brown customer service page                             # stepDefinitions.TrackOrderSteps_Valid_Input.user_on_customer_service_page()
+  When the user accepts cookies                                                          # stepDefinitions.TrackOrderSteps_Valid_Input.user_accepts_cookies()
+  And the user opens the chatbot                                                         # stepDefinitions.TrackOrderSteps_Valid_Input.user_opens_chatbot()
+  And the user validate the chatbot header                                               # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_chatbot_header()
+  And the user validate the logo of BB is visible                                        # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_logo_of_bb_is_visible()
+  And the user validate the welcome message by chatbot                                   # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_validate_the_welcome_message_by_chatbot()
+  And the user clicks on privacy policy and it should to redirect to policy details page # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_clicks_on_privacy_policy_and_it_should_to_redirect_to_policy_details_page()
+  And the user selects "TRACK MY ORDER"                                                  # stepDefinitions.TrackOrderSteps_Valid_Input.user_selects_option(java.lang.String)
+  And the user confirms they have an order number                                        # stepDefinitions.TrackOrderSteps_Valid_Input.user_confirms_order_number()
+  And Validating the reply given by chatbot for order number                             # stepDefinitions.TrackOrderSteps_Valid_Input.Validating_the_reply_given_by_chatbot_for_order_number()
+  And the user enters order ID "110059322"                                               # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_order_id(java.lang.String)
+  And Validating the reply given by chatbot for email                                    # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_email()
+  And the user enters email "valchild@icloud.com"                                        # stepDefinitions.TrackOrderSteps_Valid_Input.user_enters_email(java.lang.String)
+  And Validating the reply given by chatbot for postal code                              # stepDefinitions.TrackOrderSteps_Valid_Input.validating_the_reply_given_by_chatbot_for_postal_code()
+  And the user enters invalid postal code "123ABC"                                       # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_enters_invalid_postal_code(java.lang.String)
+  And the user should get invalid postal message from chatbot                            # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_should_get_invalid_postal_message_from_chatbot()
+  And the user again enters the invalid postal code "123ABC"                             # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_again_enters_the_invalid_postal_code(java.lang.String)
+  And the user should get sorry message and try to advisor from chatbot                  # stepDefinitions.TrackOrderSteps_Valid_Input.the_user_should_get_sorry_message_and_try_to_advisor_from_chatbot()
+  Then closed the website                                                                # stepDefinitions.TrackOrderSteps_Valid_Input.closed_the_website()
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Jun 05, 2025 4:23:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 136
+]]></system-err>
+  </testcase>
+</testsuite>

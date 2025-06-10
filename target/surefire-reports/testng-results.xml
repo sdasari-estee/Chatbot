@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-05T16:15:44 IST" name="CucumberSuite" finished-at="2025-06-05T16:24:07 IST" duration-ms="502652">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Cancelled@4efbca5a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.In_warehouse@747ddf94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped@55183b20]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped_RM@1bd4fdd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped_partial_oos@35e2d654]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner_Invalid_OrderID@4f83df68]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner_Invalid_Postalcode@6cf0e0ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-06-05T16:15:44 IST" name="CucumberTests" finished-at="2025-06-05T16:24:07 IST" duration-ms="502652">
+      <class name="testRunners.In_warehouse">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.In_warehouse@747ddf94]" started-at="2025-06-05T16:17:05 IST" name="setUpClass" finished-at="2025-06-05T16:17:05 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.In_warehouse@747ddf94]" started-at="2025-06-05T16:17:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:18:03 IST" duration-ms="57966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and Pincode which is in warehouse"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.In_warehouse@747ddf94]" started-at="2025-06-05T16:18:03 IST" name="tearDownClass" finished-at="2025-06-05T16:18:03 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.In_warehouse -->
+      <class name="testRunners.TestRunner_Invalid_Postalcode">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner_Invalid_Postalcode@6cf0e0ba]" started-at="2025-06-05T16:23:12 IST" name="setUpClass" finished-at="2025-06-05T16:23:12 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner_Invalid_Postalcode@6cf0e0ba]" started-at="2025-06-05T16:23:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:24:07 IST" duration-ms="55105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and invalid Pincode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner_Invalid_Postalcode@6cf0e0ba]" started-at="2025-06-05T16:24:07 IST" name="tearDownClass" finished-at="2025-06-05T16:24:07 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner_Invalid_Postalcode -->
+      <class name="testRunners.Shipped_partial_oos">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.Shipped_partial_oos@35e2d654]" started-at="2025-06-05T16:18:03 IST" name="setUpClass" finished-at="2025-06-05T16:18:03 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped_partial_oos@35e2d654]" started-at="2025-06-05T16:18:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:19:05 IST" duration-ms="61549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and Pincode which is Shipped_partial_oos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.Shipped_partial_oos@35e2d654]" started-at="2025-06-05T16:19:05 IST" name="tearDownClass" finished-at="2025-06-05T16:19:05 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.Shipped_partial_oos -->
+      <class name="testRunners.Shipped">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.Shipped@55183b20]" started-at="2025-06-05T16:21:00 IST" name="setUpClass" finished-at="2025-06-05T16:21:00 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped@55183b20]" started-at="2025-06-05T16:21:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:22:17 IST" duration-ms="77679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and Pincode which is Shipped"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.Shipped@55183b20]" started-at="2025-06-05T16:22:17 IST" name="tearDownClass" finished-at="2025-06-05T16:22:17 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.Shipped -->
+      <class name="testRunners.Shipped_RM">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.Shipped_RM@1bd4fdd]" started-at="2025-06-05T16:19:05 IST" name="setUpClass" finished-at="2025-06-05T16:19:05 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Shipped_RM@1bd4fdd]" started-at="2025-06-05T16:19:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:21:00 IST" duration-ms="114711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and Pincode which is Shipped_RM"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.Shipped_RM@1bd4fdd]" started-at="2025-06-05T16:21:00 IST" name="tearDownClass" finished-at="2025-06-05T16:21:00 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.Shipped_RM -->
+      <class name="testRunners.TestRunner_Invalid_OrderID">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner_Invalid_OrderID@4f83df68]" started-at="2025-06-05T16:22:17 IST" name="setUpClass" finished-at="2025-06-05T16:22:17 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner_Invalid_OrderID@4f83df68]" started-at="2025-06-05T16:22:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:23:12 IST" duration-ms="54217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using Invalid Order ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner_Invalid_OrderID@4f83df68]" started-at="2025-06-05T16:23:12 IST" name="tearDownClass" finished-at="2025-06-05T16:23:12 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner_Invalid_OrderID -->
+      <class name="testRunners.Cancelled">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.Cancelled@4efbca5a]" started-at="2025-06-05T16:15:44 IST" name="setUpClass" finished-at="2025-06-05T16:15:45 IST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cede70a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Cancelled@4efbca5a]" started-at="2025-06-05T16:15:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:17:05 IST" duration-ms="80436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tracks order using valid Order ID, Email, and Pincode which is cancelled"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Track Order Status via Chatbot"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunners.Cancelled@4efbca5a]" started-at="2025-06-05T16:17:05 IST" name="tearDownClass" finished-at="2025-06-05T16:17:05 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.Cancelled -->
+    </test> <!-- CucumberTests -->
+  </suite> <!-- CucumberSuite -->
+</testng-results>
